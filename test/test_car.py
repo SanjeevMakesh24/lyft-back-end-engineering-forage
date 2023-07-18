@@ -7,7 +7,8 @@ from engine.model.palindrome import Palindrome
 from engine.model.rorschach import Rorschach
 from engine.model.thovex import Thovex
 
-
+# **These Test Cases Do not include the new Tire Criteria, therefore they will not work**
+# **However, I have done some tests in the mytest.py file, and they seem to work as intended**
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
         today = datetime.today().date()
